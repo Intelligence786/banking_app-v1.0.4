@@ -100,7 +100,7 @@ class _InfoIncomeScreenState extends State<InfoIncomeScreen> {
               ),
               SizedBox(height: 5.v),
               Text(
-                widget.incomeModel.amount.toStringAsFixed(2),
+                '${formatter.format(widget.incomeModel.amount)} \$',
                 style: theme.textTheme.bodyLarge,
               ),
             ],
@@ -169,7 +169,7 @@ class _InfoIncomeScreenState extends State<InfoIncomeScreen> {
                 ),
                 SizedBox(height: 3.v),
                 Text(
-                  '${incomeHistory.amount.toStringAsFixed(2)} \$',
+                  '${formatter.format(incomeHistory.amount)} \$',
                   style: theme.textTheme.bodyLarge,
                 ),
               ],

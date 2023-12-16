@@ -1,5 +1,5 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
+
 import '../../core/app_export.dart';
 
 /// Helper class for managing themes and colors.
@@ -136,15 +136,24 @@ class PrimaryColors {
 
   // Gray
   Color get gray100 => Color(0XFFF2F2F2);
+
   Color get gray300 => Color(0XFFE0E0E0);
+
   Color get gray30001 => Color(0XFFDDDDDD);
+
   Color get gray50 => Color(0XFFFCFCFC);
+
   Color get gray500 => Color(0XFF979797);
 
   // Yellow
   Color get yellowA700 => Color(0XFFF7DF00);
+
   Color get yellowA70001 => Color(0XFFF6DF06);
 }
 
 PrimaryColors get appTheme => ThemeHelper().themeColor();
+
 ThemeData get theme => ThemeHelper().themeData();
+
+NumberFormat get formatter =>
+    NumberFormat.currency(locale: 'ru_RU',  decimalDigits: 2, symbol: '' );

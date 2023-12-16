@@ -60,7 +60,7 @@ class _MainPageState extends State<MainPage> {
             Padding(
               padding: EdgeInsets.only(left: 16.h),
               child: Text(
-                '${DataManager.data.getTotalAmount()} \$',
+                '${formatter.format(DataManager.data.getTotalAmount())} \$',
                 style: CustomTextStyles.headlineLargeBold,
               ),
             ),

@@ -4,7 +4,6 @@ import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import '../models/personal_income_model.dart';
 import '/core/app_export.dart';
 
 

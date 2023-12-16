@@ -18,3 +18,4 @@ export 'package:banking_app/widgets/custom_image_view.dart';
 export '../theme/bloc/theme_bloc.dart';
 export '../theme/custom_button_style.dart';
 export 'package:banking_app/core/utils/date_time_utils.dart';
+export 'package:intl/intl.dart';

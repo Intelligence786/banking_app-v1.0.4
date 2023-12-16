@@ -72,7 +72,8 @@ class _IncomegridItemWidgetState extends State<IncomegridItemWidget> {
                         bottom: 3.v,
                       ),
                       child: Text(
-                        widget.incomeModel.amount.toStringAsFixed(2)!,
+                        '${formatter.format(widget.incomeModel.amount)} \$',
+                        //  NumberFormat..currency(locale: 'en_US', symbol: '\$') ,
                         style: theme.textTheme.bodyLarge,
                       ),
                     ),
